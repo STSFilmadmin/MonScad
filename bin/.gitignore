@@ -3,7 +3,6 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-.mvn/repository/
 
 # Eclipse
 .classpath
@@ -29,9 +28,6 @@ build/
 .dockerignore
 Dockerfile
 docker-compose.yml
-volumes/
-data/
-logs/
 
 # OS-specific files
 .DS_Store
@@ -40,8 +36,6 @@ Thumbs.db
 # Java
 *.class
 *.log
-*.out
-*.pid
 *.jar
 *.war
 *.nar
@@ -49,10 +43,6 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.rar
-dump.rdb
-
-# Environment variables
-.env*
 
 # VM crash logs
 hs_err_pid*
@@ -63,8 +53,3 @@ replay_pid*
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# VS Code
-.vscode/
-
-HELP.md
